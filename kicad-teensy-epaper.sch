@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:wickerlib
+LIBS:kicad-teensy-epaper-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -14,120 +15,90 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4975 3725 6125 3725
+Wire Wire Line
+	4975 3625 6125 3625
+Wire Wire Line
+	4975 3525 6125 3525
+Wire Wire Line
+	4975 3425 6125 3425
+Wire Wire Line
+	4975 3325 6125 3325
+Wire Wire Line
+	4975 3225 6125 3225
+Wire Wire Line
+	4975 3125 6125 3125
+Wire Wire Line
+	4975 3025 6125 3025
+Wire Wire Line
+	4975 2925 6125 2925
+Wire Wire Line
+	6125 2825 4975 2825
+Wire Wire Line
+	4975 2725 6125 2725
+Wire Wire Line
+	6125 2625 4975 2625
+Wire Wire Line
+	4975 2525 6125 2525
+Wire Wire Line
+	4975 2425 6125 2425
+Wire Wire Line
+	6125 2325 4975 2325
+Wire Wire Line
+	4975 2225 6125 2225
+Wire Wire Line
+	6125 2125 4975 2125
+Wire Wire Line
+	4975 2025 6125 2025
+Wire Wire Line
+	6125 1925 4975 1925
+Wire Wire Line
+	4975 1825 6125 1825
+Wire Wire Line
+	6125 5125 4975 5125
+Wire Wire Line
+	4975 5025 6125 5025
+Wire Wire Line
+	6125 4925 4975 4925
+Wire Wire Line
+	4975 4825 6125 4825
+Wire Wire Line
+	6125 4725 4975 4725
+Wire Wire Line
+	4975 3825 6125 3825
+Wire Wire Line
+	6125 3925 4975 3925
+Wire Wire Line
+	4975 4025 6125 4025
+Wire Wire Line
+	6125 4125 4975 4125
+Wire Wire Line
+	4975 4225 6125 4225
+Wire Wire Line
+	6125 4325 4975 4325
+Wire Wire Line
+	4975 4425 6125 4425
+Wire Wire Line
+	6125 4525 4975 4525
+Wire Wire Line
+	4975 4625 6125 4625
 $Comp
 L HEADER-FEMALE-34POS-FFC-SMT-1x34-P0.5MM J1
-U 1 1 5870583B
-P 5025 3700
-F 0 "J1" H 4975 4750 50  0000 L CNN
-F 1 "HEADER-FEMALE-34POS-FFC-SMT-1x34-P0.5MM" H 4975 1250 50  0000 L CNN
-F 2 "Wickerlib:CONN-HEADER-FH34SRJ-34S-0.5SH" H 5025 3350 50  0001 C CIN
-F 3 "https://cdn.harwin.com/pdfs/60page140.pd://www.hirose.com/product/en/download_file/key_name/FH34SRJ/category/Catalog/doc_file_id/31646/?file_category_id=4&item_id=27&is_series=1" H 5025 3700 5   0001 C CNN
-F 4 "HEADER FEMALE 34POS SMT 1x34 0.5MMP" H 5025 3350 50  0001 C CIN "Description"
-F 5 "Hirose" H 5025 3350 50  0001 C CIN "MF_Name"
-F 6 "FH34SRJ-34S-0.5SH(99)" H 5025 3350 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 5025 3350 50  0001 C CIN "S1_Name"
-F 8 "H124726CT-ND" H 5025 3350 50  0001 C CIN "S1_PN"
-	1    5025 3700
-	-1   0    0    1   
+U 1 1 58799DE1
+P 6325 2775
+F 0 "J1" H 6275 3825 50  0000 L CNN
+F 1 "HEADER-FEMALE-34POS-FFC-SMT-1x34-P0.5MM" H 6275 325 50  0000 L CNN
+F 2 "Wickerlib:CONN-HEADER-FH34SRJ-34S-0.5SH" H 6325 2425 50  0001 C CIN
+F 3 "https://cdn.harwin.com/pdfs/60page140.pd://www.hirose.com/product/en/download_file/key_name/FH34SRJ/category/Catalog/doc_file_id/31646/?file_category_id=4&item_id=27&is_series=1" H 6325 2775 5   0001 C CNN
+F 4 "HEADER FEMALE 34POS SMT 1x34 0.5MMP" H 6325 2425 50  0001 C CIN "Description"
+F 5 "Hirose" H 6325 2425 50  0001 C CIN "MF_Name"
+F 6 "FH34SRJ-34S-0.5SH(99)" H 6325 2425 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 6325 2425 50  0001 C CIN "S1_Name"
+F 8 "H124726CT-ND" H 6325 2425 50  0001 C CIN "S1_PN"
+	1    6325 2775
+	1    0    0    -1  
 $EndComp
-$Comp
-L HEADER-MALE-25POS-TH-1x25-P0.1IN J?
-U 1 1 58705B9E
-P 6575 3450
-F 0 "J?" H 6525 4750 50  0000 L CNN
-F 1 "HEADER-MALE-25POS-TH-1x25-P0.1IN" H 6525 2150 50  0000 L CNN
-F 2 "Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x25" H 6575 3100 50  0001 C CIN
-F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 6575 3450 5   0001 C CNN
-F 4 "HEADER MALE 25POS TH 1x25 0.1”" H 6575 3100 50  0001 C CIN "Description"
-F 5 "Harwin" H 6575 3100 50  0001 C CIN "MF_Name"
-F 6 "M20-9992046" H 6575 3100 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 6575 3100 50  0001 C CIN "S1_Name"
-F 8 "952-1902-ND" H 6575 3100 50  0001 C CIN "S1_PN"
-	1    6575 3450
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5225 4650 6375 4650
-Wire Wire Line
-	5225 4550 6375 4550
-Wire Wire Line
-	5225 4450 6375 4450
-Wire Wire Line
-	5225 4350 6375 4350
-Wire Wire Line
-	5225 4250 6375 4250
-Wire Wire Line
-	5225 4150 6375 4150
-Wire Wire Line
-	5225 4050 6375 4050
-Wire Wire Line
-	5225 3950 6375 3950
-Wire Wire Line
-	5225 3850 6375 3850
-Wire Wire Line
-	6375 3750 5225 3750
-Wire Wire Line
-	5225 3650 6375 3650
-Wire Wire Line
-	6375 3550 5225 3550
-Wire Wire Line
-	5225 3450 6375 3450
-Wire Wire Line
-	5225 3350 6375 3350
-Wire Wire Line
-	6375 3250 5225 3250
-Wire Wire Line
-	5225 3150 6375 3150
-Wire Wire Line
-	6375 3050 5225 3050
-Wire Wire Line
-	5225 2950 6375 2950
-Wire Wire Line
-	6375 2850 5225 2850
-Wire Wire Line
-	5225 2750 6375 2750
-Wire Wire Line
-	6375 2650 5225 2650
-Wire Wire Line
-	5225 2550 6375 2550
-Wire Wire Line
-	6375 2450 5225 2450
-Wire Wire Line
-	5225 2350 6375 2350
-Wire Wire Line
-	6375 2250 5225 2250
-$Comp
-L HEADER-MALE-9POS-TH-1x09-P0.1IN J?
-U 1 1 58706087
-P 6575 1750
-F 0 "J?" H 6525 2250 50  0000 L CNN
-F 1 "HEADER-MALE-9POS-TH-1x09-P0.1IN" H 6525 1250 50  0000 L CNN
-F 2 "Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x09" H 6575 1400 50  0001 C CIN
-F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 6575 1750 5   0001 C CNN
-F 4 "HEADER MALE 9POS TH 1x09 0.1”" H 6575 1400 50  0001 C CIN "Description"
-F 5 "Harwin" H 6575 1400 50  0001 C CIN "MF_Name"
-F 6 "M20-9992046" H 6575 1400 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 6575 1400 50  0001 C CIN "S1_Name"
-F 8 "952-1902-ND" H 6575 1400 50  0001 C CIN "S1_PN"
-	1    6575 1750
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5225 1350 6375 1350
-Wire Wire Line
-	6375 1450 5225 1450
-Wire Wire Line
-	5225 1550 6375 1550
-Wire Wire Line
-	6375 1650 5225 1650
-Wire Wire Line
-	5225 1750 6375 1750
-Wire Wire Line
-	6375 1850 5225 1850
-Wire Wire Line
-	5225 1950 6375 1950
-Wire Wire Line
-	6375 2050 5225 2050
-Wire Wire Line
-	5225 2150 6375 2150
+Text GLabel 4975 1825 0    50   Input ~ 0
+NC1
 $EndSCHEMATC
