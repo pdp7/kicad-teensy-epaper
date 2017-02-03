@@ -3,7 +3,7 @@
   (general
     (links 2)
     (no_connects 2)
-    (area 0 0 0 0)
+    (area 99.911715 74.854999 178.510001 123.265001)
     (thickness 1.6)
     (drawings 17)
     (tracks 0)
@@ -70,7 +70,7 @@
     (solder_mask_min_width 0.1016)
     (pad_to_paste_clearance -0.0762)
     (aux_axis_origin 196.5452 123.5456)
-    (visible_elements FFFFFFFF)
+    (visible_elements FFFFEFFF)
     (pcbplotparams
       (layerselection 0x310fc_80000001)
       (usegerberextensions true)
@@ -178,7 +178,7 @@
   )
 
   (module Wickerlib:CONN-HEADER-FH34SRJ-34S-0.5SH (layer F.Cu) (tedit 58425DB7) (tstamp 58799D01)
-    (at 119.253 94.107)
+    (at 115.62 90.392)
     (path /58799DE1)
     (fp_text reference J1 (at -0.225 -0.325 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
