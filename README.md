@@ -16,6 +16,7 @@ My goal is to create a name badge I can wear at conferences and Maker Faires.  T
 
 ## Bill of Materials (BoM)
 * [Digi-Key shopping cart](http://www.digikey.com/short/3wbn09)
+
 [![Digi-Key shopping cart](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/kicad-epaper-digikey-bom.png)](http://www.digikey.com/short/3wbn09)
 
 ## Source Code
