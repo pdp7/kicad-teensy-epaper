@@ -25,8 +25,7 @@ My goal is to create a name badge I can wear at conferences and Maker Faires.  T
 * [Google Photos gallery](https://photos.google.com/album/AF1QipMJIE_LHkBx4cDBC7Az4LCheKRHWRPANAtDPy4m)
 
 ## Video
-* https://www.youtube.com/watch?v=g4yw0fRVB_U
-
+* [YouTube: KiCad ePaper breakout for Teensy](https://www.youtube.com/watch?v=g4yw0fRVB_U)
 
 ## Bill of Materials
 * [Digi-Key shopping cart](http://www.digikey.com/short/3wbn09)
