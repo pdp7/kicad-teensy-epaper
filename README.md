@@ -24,9 +24,10 @@ My goal is to create a name badge I can wear at conferences and Maker Faires.  T
 * requires pinout modification:
   * [EpaperQuoteDisplay.ino](https://github.com/pdp7/kicad-teensy-epaper/blob/master/code/EpaperQuoteDisplay.ino)
   * `EPD215 epaper( 17, 16, 14, 15, 13, 11 );`
-
+  
 ## Photos
-* [Google Photos gallery](https://photos.google.com/album/AF1QipMJIE_LHkBx4cDBC7Az4LCheKRHWRPANAtDPy4m)
+* [Google Photos gallery](https://photos.google.com/share/AF1QipNF7Bmk3dk0dI8wlLWVi3norOHkclXDltVEcZS2PsjbMnvgV6uTuN6ZWSbcuT0tYg?key=MjZoTzRqQlpJNU5hRWR0aGtzekRKa1ZrVkxGX3RB)
+* [images directory in github repo](https://github.com/pdp7/kicad-teensy-epaper/tree/master/images)
 
 ## Video
 * [YouTube: KiCad ePaper breakout for Teensy](https://www.youtube.com/watch?v=g4yw0fRVB_U)
