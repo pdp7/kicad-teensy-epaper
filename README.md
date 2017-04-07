@@ -12,7 +12,9 @@ My goal is to create a name badge I can wear at conferences and Maker Faires.  T
 
 ## KiCad PCB design files:
 * repo: [pdp7/kicad-teensy-epaper](https://github.com/pdp7/kicad-teensy-epaper)
-* commit: 54458f4
+* commit: [54458f4](https://github.com/pdp7/kicad-teensy-epaper/commit/54458f40203bd3cb5f571eac02e942c3695af168)
+* requires KiCad library [wickerlib](https://github.com/wickerbox/wickerlib) by [Jenner Hanni](http://jennerhanni.net/) of [Wickerbox Electronics](http://wickerbox.net/) for the 34-position FPC connector that the e-paper display plugs into:
+  * [CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod](https://github.com/wickerbox/wickerlib/blob/master/libraries/Wickerlib.pretty/CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod)
 
 ## Bill of Materials (BoM)
 * [Digi-Key shopping cart](http://www.digikey.com/short/3wbn09)
