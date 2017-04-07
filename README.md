@@ -11,8 +11,7 @@ My goal is to create a name badge I can wear at conferences and Maker Faires.  T
 * [E-Paper Breakout Board for Teensy](https://oshpark.com/shared_projects/Wk76kUK3)
 
 ## Source Code
-* Arduino Library by Jarek Lupinski for the E-paper Teensy Shield
-  * https://github.com/jarek319/EPD215
+* uses [EPD215](https://github.com/jarek319/EPD215) Arduino Library by Jarek Lupinski for his E-paper Teensy Shield
 * requires pinout modification:
   * [EpaperQuoteDisplay.ino](https://github.com/pdp7/kicad-teensy-epaper/blob/master/code/EpaperQuoteDisplay.ino)
   * `EPD215 epaper( 17, 16, 14, 15, 13, 11 );`
