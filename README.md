@@ -3,8 +3,12 @@ Breakout board designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive 
 
 My goal is to create a name badge I can wear at conferences and Maker Faires.  This was first step to verify the KiCad schematic and KiCad footprints work.  I will post more information the badge project progresses.
 
+[![Photo of E-Paper Display](https://github.com/pdp7/kicad-teensy-epaper/blob/master/images/small/epaper-breakout-board-quotes.jpg)](https://oshpark.com/shared_projects/Wk76kUK3)
+
 ## OSH Park Shared Project
-* https://oshpark.com/shared_projects/Wk76kUK3
+[![Preview of PCB top side](https://github.com/pdp7/kicad-teensy-epaper/blob/master/images/small/preview-top.png
+)](https://oshpark.com/shared_projects/Wk76kUK3)
+* [E-Paper Breakout Board for Teensy](https://oshpark.com/shared_projects/Wk76kUK3)
 
 ## Source Code
 * Arduino Library by Jarek Lupinski for the E-paper Teensy Shield
