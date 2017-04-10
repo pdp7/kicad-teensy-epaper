@@ -1,4 +1,4 @@
-update=Thu 02 Feb 2017 08:46:25 PM CST
+update=Sun 09 Apr 2017 12:45:32 AM CDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -39,7 +39,7 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=/home/pdp7/dev/oshpark/wickerlib/libraries/wickerlib
+LibName1=kicad-teensy-epaper-rescue
 LibName2=bbd
 LibName3=battery_management
 LibName4=Worldsemi
@@ -120,3 +120,4 @@ LibName78=Lattice
 LibName79=Altera
 LibName80=74xx
 LibName81=74xgxx
+LibName82=/home/pdp7/dev/oshpark/wickerlib
