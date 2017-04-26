@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:kicad-teensy-epaper-rescue
 LIBS:bbd
 LIBS:battery_management
 LIBS:Worldsemi
@@ -138,8 +137,6 @@ Text GLabel 7775 3575 2    50   Input ~ 0
 VDDIO
 Text GLabel 7775 3775 2    50   Input ~ 0
 VDD
-Text GLabel 7775 3875 2    50   Input ~ 0
-VPP
 Text GLabel 7775 3975 2    50   Input ~ 0
 VSH
 Text GLabel 7775 4075 2    50   Input ~ 0
@@ -265,8 +262,6 @@ Text GLabel 5050 3225 2    50   Input ~ 0
 SCK
 Text GLabel 5050 3025 2    50   Input ~ 0
 DOUT
-NoConn ~ 5050 1925
-NoConn ~ 5050 2025
 NoConn ~ 5050 2125
 NoConn ~ 5050 2225
 NoConn ~ 5050 2325
@@ -281,8 +276,6 @@ NoConn ~ 5050 3725
 NoConn ~ 5050 3825
 NoConn ~ 5050 3925
 NoConn ~ 5050 4025
-NoConn ~ 5050 4125
-NoConn ~ 5050 4225
 NoConn ~ 5100 4375
 NoConn ~ 5100 4475
 $Comp
@@ -731,7 +724,6 @@ F 8 "TEENSY3.2" V 4550 4325 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5100 1475
-NoConn ~ 5100 1675
 NoConn ~ 5100 1775
 Wire Wire Line
 	2550 2125 2650 2125
@@ -767,4 +759,48 @@ Wire Wire Line
 NoConn ~ 7775 4775
 NoConn ~ 7775 2575
 NoConn ~ 7775 2675
+Text GLabel 5100 1675 2    50   Input ~ 0
+VDDIO
+$Comp
+L CAPSENSE_CIRCLE CAP1
+U 1 1 58FFF9C2
+P 5500 1925
+F 0 "CAP1" H 5750 2025 60  0000 L CNN
+F 1 "CAPSENSE_CIRCLE" H 5750 1825 60  0000 L CNN
+F 2 "Wickerlib:CAPSENSE-CIRCLE-D10MM" H 5500 1925 60  0001 C CNN
+F 3 "" H 5500 1925 60  0000 C CNN
+	1    5500 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPSENSE_CIRCLE CAP2
+U 1 1 58FFFBB1
+P 5500 2400
+F 0 "CAP2" H 5750 2500 60  0000 L CNN
+F 1 "CAPSENSE_CIRCLE" H 5750 2300 60  0000 L CNN
+F 2 "Wickerlib:CAPSENSE-CIRCLE-D10MM" H 5500 2400 60  0001 C CNN
+F 3 "" H 5500 2400 60  0000 C CNN
+	1    5500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1925 5150 1925
+Wire Wire Line
+	5050 2025 5150 2025
+Wire Wire Line
+	5150 2025 5150 2400
+NoConn ~ 7775 3875
+NoConn ~ 10475 6700
+NoConn ~ 5050 4125
+$Comp
+L CAPSENSE_CIRCLE CAP?
+U 1 1 590025D6
+P 5400 4225
+F 0 "CAP?" H 5650 4325 60  0000 L CNN
+F 1 "CAPSENSE_CIRCLE" H 5650 4125 60  0000 L CNN
+F 2 "Wickerlib:CAPSENSE-CIRCLE-D10MM" H 5400 4225 60  0001 C CNN
+F 3 "" H 5400 4225 60  0000 C CNN
+	1    5400 4225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
