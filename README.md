@@ -27,11 +27,11 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
   * `EPD215 epaper( 17, 16, 14, 15, 13, 11 );`
   
 ## Photos
-* [Google Photos gallery](https://photos.google.com/share/AF1QipNF7Bmk3dk0dI8wlLWVi3norOHkclXDltVEcZS2PsjbMnvgV6uTuN6ZWSbcuT0tYg?key=MjZoTzRqQlpJNU5hRWR0aGtzekRKa1ZrVkxGX3RB)
+* [Google Photos gallery](https://goo.gl/photos/csZV9jxah2BSP6vG9)
 * [images directory in github repo](https://github.com/pdp7/kicad-teensy-epaper/tree/master/images)
 
 ## Video
-* [YouTube: KiCad e-Paper Badge with Teensy](https://www.youtube.com/watch?v=4fN80SxIk5o)
+* [**YouTube:** E-Paper Badge with Teensy LC designed in KiCad](https://www.youtube.com/watch?v=AxnLgPFTEOA)
 
 ## Related: Jarek's ePaper Teensy shield
   * OSH Park shared project: [Teensy e-Paper shield](https://oshpark.com/shared_projects/3KynIVn6)
