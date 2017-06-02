@@ -8,7 +8,9 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
 
 [![Preview of PCB top side](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/small/preview-top.png)](https://oshpark.com/projects/1CiimZcf)
 
-## KiCad PCB design
+## KiCad PCB design files
+* repo: [kicad-teensy-epaper](https://github.com/pdp7/kicad-teensy-epaper/)
+* commit: [Reworked layout for aesthetics [0a40263]](https://github.com/pdp7/kicad-teensy-epaper/commit/0a4026351685b28afe0d5b1825abe197254be2be)
 * requires KiCad library [wickerlib](https://github.com/wickerbox/wickerlib) by [Jenner Hanni](http://jennerhanni.net/) of [Wickerbox Electronics](http://wickerbox.net/) for the 34-position FPC connector that the e-paper display plugs into:
   * [CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod](https://github.com/wickerbox/wickerlib/blob/master/libraries/Wickerlib.pretty/CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod)
 
