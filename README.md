@@ -20,6 +20,13 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
 
 [![Digi-Key shopping cart](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/small/kicad-epaper-digikey-bom.png)](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/kicad-epaper-digikey-bom.png)
 
+### Battery Power
+These products are used to power the badge from a battery:
+* **[LiPo battery charger add-on for Teensy 3.1](https://www.tindie.com/products/onehorse/lipo-battery-charger-add-on-for-teensy-31/)** from Pesky Products on Tindie
+  * **WARNING:** The trace between VIN and VUSB must be cut! Here is an [demostration of cutting the trace](https://learn.adafruit.com/assets/28069) on Adafruit Learning System.
+* **[Lithium Ion Polymer Battery - 3.7v 500mAh](https://www.adafruit.com/product/1578)** from Adafruit
+  * Initial capacity chosen for a good trade off between weight and power. I have not yet measured how long it will run with different capacities.
+
 ## Source Code
 * uses [EPD215](https://github.com/jarek319/EPD215) Arduino Library by Jarek Lupinski for his E-paper Teensy Shield
 * requires pinout modification:
