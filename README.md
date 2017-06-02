@@ -28,27 +28,34 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
   * Digi-Key: [H124726CT-ND](https://www.digikey.com/short/3hv1q0)
   * Datasheet: [FH34(S) Series Datasheet](https://www.hirose.com/product/en/download_file/key_name/FH34SRJ/category/Catalog/doc_file_id/31646/?file_category_id=4&item_id=27&is_series=1)
 * Teensy headers
-  * Digikey: [S7012-ND](https://www.digikey.com/short/3db830) _(CONN HEADER FEMALE 14POS.1" TIN)_ 
+  * Digikey: [S7012-ND](https://www.digikey.com/short/3db830) _(CONN HEADER FEMALE 14POS.1" TIN)_
+  * Quantity: 2
   * optional as Teensy can be soldered directly to PCB
-* Capacitor 1uF 0805  (qty 9)
+* Capacitor 1uF 0805
   * Digi-Key: [1276-1066-1-ND](https://www.digikey.com/short/3db8tm) _(CAP CER 1UF 25V X7R 0805)_
+  * Quantity: 1
   * Reference: C1 C3 C4 C5 C6 C7 C8 C9 C10    
-* Capacitor 2.2uF 0805  (qty 1)
+* Capacitor 2.2uF 0805
   * Digi-Key: [1276-2953-1-ND](https://www.digikey.com/short/3db8tp) _(CAP CER 2.2UF 25V X7R 0805)_
+  * Quantity: 1
   * Reference: C2
-* Inductor 47uH (qty 1):
+* Inductor 47uH
   * Digi-Key: [732-7252-1-ND](https://www.digikey.com/short/3db8tq) _(FIXED IND 47UH 800MA 521 MOHM)_
+  * Quantity: 1
   * Reference: L1
-* Resistor 2.2 Ohm 0805 (qty 1):
+* Resistor 2.2 Ohm 0805
   * Digi-Key: [311-2.20CRCT-ND](https://www.digikey.com/short/3db8tz) _(RES SMD 2.2 OHM 1% 1/8W 0805)_
+  * Quantity: 1
   * Reference: R1
-*	Schotty diodes SOD123 (qty 3):
-  * Digi-Key: [MBR0530CT-ND](https://www.digikey.com/short/3db883) _(DIODE SCHOTTKY 30V 500MA SOD123)_
-  * Reference: D1 D2 D3
-* Mosfet N-Ch SOT23 (qty 1):
+* Mosfet N-Ch SOT23
   * Digi-Key: [785-1012-1-ND](https://www.digikey.com/short/3db8t8) _(MOSFET N-CH 30V 3.8A SOT23)_
+  * Quantity: 1
   * Reference: Q1
-
+* Schotty diodes SOD123
+  * Digi-Key: [MBR0530CT-ND](https://www.digikey.com/short/3db883) _(DIODE SCHOTTKY 30V 500MA SOD123)_
+  * Quantity: 3
+  * Reference: D1 D2 D3
+  
 
 ### [Digi-Key shopping cart](http://www.digikey.com/short/3wbn09)
 [![Digi-Key shopping cart](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/small/kicad-epaper-digikey-bom.png)](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/kicad-epaper-digikey-bom.png)
