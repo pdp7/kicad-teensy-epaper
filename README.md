@@ -16,10 +16,9 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
   * [CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod](https://github.com/wickerbox/wickerlib/blob/master/libraries/Wickerlib.pretty/CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod)
 
 ## Bill of Materials (BoM)
-* [Digi-Key shopping cart](http://www.digikey.com/short/3wbn09)
 
+### [Digi-Key shopping cart](http://www.digikey.com/short/3wbn09)
 [![Digi-Key shopping cart](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/small/kicad-epaper-digikey-bom.png)](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/kicad-epaper-digikey-bom.png)
-
 ### Battery Power
 These products are used to power the badge from a battery:
 * **[LiPo battery charger add-on for Teensy 3.1](https://www.tindie.com/products/onehorse/lipo-battery-charger-add-on-for-teensy-31/)** from Pesky Products on Tindie
