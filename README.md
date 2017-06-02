@@ -16,6 +16,15 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
   * [CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod](https://github.com/wickerbox/wickerlib/blob/master/libraries/Wickerlib.pretty/CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod)
 
 ## Bill of Materials (BoM)
+* [Teensy LC](http://store.oshpark.com/products/teensy-lc) sold by OSH Park. Designed and manufactured by [PJRC](https://www.pjrc.com/teensy/teensyLC.html).
+  * _[Teensy 3.2](https://oshpark.com/teensy) is also compatible but more expensive_
+* [Pervasive Displays 2.15" e-paper with ITC](http://www.pervasivedisplays.com/products/215)
+  * Model number: E2215CS062
+  * Digi-Key part number: [E2215CS062-ND](http://www.digikey.com/product-detail/en/pervasive-displays/E2215CS062/E2215CS062-ND/5975949)
+  * Datasheet: [2.15" TFT EPD Panel (E2215CS062)](http://www.pervasivedisplays.com/LiteratureRetrieve.aspx?ID=232067)
+  * App note: [2.15" Aurora_Mb Application Note](http://www.pervasivedisplays.com/LiteratureRetrieve.aspx?ID=232068)
+* [Hirose Electric Co Ltd FH34SRJ-34S-0.5SH FPC connector](https://www.digikey.com/short/3hv1q0)
+  * Digi-Key part number:[FH34SRJ-34S-0.5SH](https://www.digikey.com/short/3hv1q0)
 
 ### [Digi-Key shopping cart](http://www.digikey.com/short/3wbn09)
 [![Digi-Key shopping cart](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/small/kicad-epaper-digikey-bom.png)](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/kicad-epaper-digikey-bom.png)
