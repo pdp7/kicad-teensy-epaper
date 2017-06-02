@@ -33,23 +33,21 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
 * Capacitor 1uF 0805
   * Digi-Key: [1276-1066-1-ND](https://www.digikey.com/short/3db8tm) _(CAP CER 1UF 25V X7R 0805)_
   * Reference: C1 C3 C4 C5 C6 C7 C8 C9 C10 _(qty 9)_
-  * Note: it is cheaper to purhcase qty 10
+  * _Note: it is cheaper to purhcase qty 10_
 * Capacitor 2.2uF 0805
   * Digi-Key: [1276-2953-1-ND](https://www.digikey.com/short/3db8tp) _(CAP CER 2.2UF 25V X7R 0805)_
   * Reference: C2 _(qty 1)_
 * Inductor 47uH
   * Digi-Key: [732-7252-1-ND](https://www.digikey.com/short/3db8tq) _(FIXED IND 47UH 800MA 521 MOHM)_
-  * Quantity: 1
   * Reference: L1 _(qty 1)_
-* Resistor 2.2 Ohm 0805
-  * Digi-Key: [311-2.20CRCT-ND](https://www.digikey.com/short/3db8tz) _(RES SMD 2.2 OHM 1% 1/8W 0805)_
-  * Reference: R1 _(qty 1)_
 * Mosfet N-Ch SOT23
   * Digi-Key: [785-1012-1-ND](https://www.digikey.com/short/3db8t8) _(MOSFET N-CH 30V 3.8A SOT23)_
   * Reference: Q1 _(qty 1)_
+* Resistor 2.2 Ohm 0805
+  * Digi-Key: [311-2.20CRCT-ND](https://www.digikey.com/short/3db8tz) _(RES SMD 2.2 OHM 1% 1/8W 0805)_
+  * Reference: R1 _(qty 1)_
 * Schotty diodes SOD123
   * Digi-Key: [MBR0530CT-ND](https://www.digikey.com/short/3db883) _(DIODE SCHOTTKY 30V 500MA SOD123)_
-  * Quantity: 3
   * Reference: D1 D2 D3 _(qty 3)_
   
 
