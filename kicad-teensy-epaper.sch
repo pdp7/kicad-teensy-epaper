@@ -692,7 +692,6 @@ F 3 "" H 5050 4825 50  0000 C CNN
 	1    5050 4825
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 5100 1475
 Wire Wire Line
 	2550 2125 2650 2125
 Wire Wire Line
@@ -786,5 +785,38 @@ F 7 "PJRC" V 4550 4325 50  0001 C CIN "S1_Name"
 F 8 "TEENSY3.2" V 4550 4325 50  0001 C CIN "S1_PN"
 	1    4800 3175
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 875  5275 875 
+Wire Wire Line
+	5275 875  5275 1475
+Wire Wire Line
+	5275 1475 5100 1475
+$Comp
+L GND #PWR016
+U 1 1 5959B30E
+P 4575 875
+F 0 "#PWR016" H 4575 625 50  0001 C CNN
+F 1 "GND" V 4575 675 50  0000 C CNN
+F 2 "" H 4575 875 50  0000 C CNN
+F 3 "" H 4575 875 50  0000 C CNN
+	1    4575 875 
+	0    1    1    0   
+$EndComp
+$Comp
+L BATT-LIPO-3.7V-150MAH-JST-2PIN B1
+U 1 1 5959E2F5
+P 4725 875
+F 0 "B1" V 4850 925 50  0000 L CNN
+F 1 "BATT-LIPO-3.7V-150MAH-JST-2PIN" V 4525 875 50  0000 L CNN
+F 2 "Connectors_JST:JST_PH_B2B-PH-SM4-TB_02x2.00mm_Straight" H 4725 525 50  0001 C CIN
+F 3 "https://cdn-shop.adafruit.com/product-files/1317/C1515_-_Li-Polymer_402025_150mAh_3.7V_with_PCM.pdf" H 4725 875 5   0001 C CNN
+F 4 "Lithium Ion Polymer Battery - 3.7v 150mAh" H 4725 525 50  0001 C CIN "Description"
+F 5 "PKCELL" H 4725 525 50  0001 C CIN "MF_Name"
+F 6 "LP402025" H 4725 525 50  0001 C CIN "MF_PN"
+F 7 "Adafruit" H 4725 525 50  0001 C CIN "S1_Name"
+F 8 "1317" H 4725 525 50  0001 C CIN "S1_PN"
+	1    4725 875 
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
