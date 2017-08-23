@@ -24,7 +24,7 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
   * Datasheet: [2.15" TFT EPD Panel (E2215CS062)](http://www.pervasivedisplays.com/LiteratureRetrieve.aspx?ID=232067)
   * App note: [2.15" Aurora_Mb Application Note](http://www.pervasivedisplays.com/LiteratureRetrieve.aspx?ID=232068)
 * [Hirose FH34SRJ-34S-0.5SH FPC connector](https://www.digikey.com/short/3hv1q0)
-  * Part number: FH34SRJ-34S-0.5SH(99)
+  * Mfg part number: FH34SRJ-34S-0.5SH(99)
   * Digi-Key: [H124726CT-ND](https://www.digikey.com/short/3hv1q0)
   * Datasheet: [FH34(S) Series Datasheet](https://www.hirose.com/product/en/download_file/key_name/FH34SRJ/category/Catalog/doc_file_id/31646/?file_category_id=4&item_id=27&is_series=1)
 * JST connector for LiPo battery
@@ -53,16 +53,16 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
 * Schotty diodes SOD123 _(quantity 3)_
   * Digi-Key: [MBR0530CT-ND](https://www.digikey.com/short/3db883) _(DIODE SCHOTTKY 30V 500MA SOD123)_
   * Reference: D1 D2 D3
-  
 
 ### [Digi-Key shopping cart](http://www.digikey.com/short/312b57)
 [![Digi-Key shopping cart](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/small/kicad-epaper-digikey-bom.png)](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/kicad-epaper-digikey-bom.png)
+
 ### Battery Power
-These products are used to power the badge from a battery:
-* **[LiPo battery charger add-on for Teensy 3.1](https://www.tindie.com/products/onehorse/lipo-battery-charger-add-on-for-teensy-31/)** from Pesky Products on Tindie
-  * **WARNING:** The trace between VIN and VUSB must be cut! Here is an [demostration of cutting the trace](https://learn.adafruit.com/assets/28069) on Adafruit Learning System.
+* **WARNING: The trace between VIN and VUSB must be cut!**
+  * [Demostration of cutting the trace](https://learn.adafruit.com/assets/28069) on Adafruit Learning System.
 * **[Lithium Ion Polymer Battery - 3.7v 500mAh](https://www.adafruit.com/product/1578)** from Adafruit
-  * Initial capacity chosen for a good trade off between weight and power. I have not yet measured how long it will run with different capacities.
+  * capacity chosen for a good trade off between weight and power
+  * TODO: measure how long board will run with different capacities.
 
 ## Source Code
 * uses [EPD215](https://github.com/jarek319/EPD215) Arduino Library by Jarek Lupinski for his E-paper Teensy Shield
