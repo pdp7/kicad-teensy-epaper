@@ -1,4 +1,4 @@
-_source: [KiCad Teensy E-Paper Badge](https://oshpark.com/shared_projects/1CiimZcf)_
+_source: [KiCad Teensy E-Paper Badge](https://oshpark.com/projects/VzRNemk1)_
 # E-Paper Badge with Teensy LC designed in KiCad
 E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive Displays 2.15" E-Paper](http://www.digikey.com/product-detail/en/pervasive-displays/E2215CS062/E2215CS062-ND/5975949) to [Teensy LC](http://store.oshpark.com/products/teensy-lc). _([Teensy 3.2](https://oshpark.com/teensy) is also compatible)._  Based [Teensy E-Paper Shield](https://blog.oshpark.com/2016/08/27/teensy-e-paper-shield/) by [Jarek Lupinski](https://hackaday.io/Jarek) in EAGLE.
 
