@@ -19,7 +19,7 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
 * [Teensy LC](http://store.oshpark.com/products/teensy-lc) sold by OSH Park. Designed and manufactured by [PJRC](https://www.pjrc.com/teensy/teensyLC.html).
   * _[Teensy 3.2](https://oshpark.com/teensy) is also compatible but more expensive_
 * [Pervasive Displays 2.15" e-paper with ITC](http://www.pervasivedisplays.com/products/215)
-  * Model number: E2215CS062
+  * Mfg part number: E2215CS062
   * Digi-Key: [E2215CS062-ND](http://www.digikey.com/product-detail/en/pervasive-displays/E2215CS062/E2215CS062-ND/5975949)
   * Datasheet: [2.15" TFT EPD Panel (E2215CS062)](http://www.pervasivedisplays.com/LiteratureRetrieve.aspx?ID=232067)
   * App note: [2.15" Aurora_Mb Application Note](http://www.pervasivedisplays.com/LiteratureRetrieve.aspx?ID=232068)
@@ -27,6 +27,10 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
   * Part number: FH34SRJ-34S-0.5SH(99)
   * Digi-Key: [H124726CT-ND](https://www.digikey.com/short/3hv1q0)
   * Datasheet: [FH34(S) Series Datasheet](https://www.hirose.com/product/en/download_file/key_name/FH34SRJ/category/Catalog/doc_file_id/31646/?file_category_id=4&item_id=27&is_series=1)
+* JST connector for LiPo battery
+  * Mfg part number: S2B-PH-SM4-TB(LF)(SN)
+  * Digikey: [455-1749-1-ND](https://www.digikey.com/short/312bmm) _(CONN HEADER PH SIDE 2POS 2MM SMD)_
+  * Datasheet: [JST PH connector](http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)  
 * Teensy headers
   * Digikey: [S7012-ND](https://www.digikey.com/short/3db830) _(CONN HEADER FEMALE 14POS.1" TIN)_
   * optional as Teensy can be soldered directly to PCB
@@ -51,7 +55,7 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
   * Reference: D1 D2 D3
   
 
-### [Digi-Key shopping cart](http://www.digikey.com/short/3wbn09)
+### [Digi-Key shopping cart](http://www.digikey.com/short/312b57)
 [![Digi-Key shopping cart](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/small/kicad-epaper-digikey-bom.png)](https://raw.githubusercontent.com/pdp7/kicad-teensy-epaper/master/images/kicad-epaper-digikey-bom.png)
 ### Battery Power
 These products are used to power the badge from a battery:
