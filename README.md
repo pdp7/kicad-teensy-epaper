@@ -11,7 +11,7 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
 
 ## KiCad PCB design files
 * repo: [kicad-teensy-epaper](https://github.com/pdp7/kicad-teensy-epaper/)
-* commit: [Reworked layout for aesthetics [0a40263]](https://github.com/pdp7/kicad-teensy-epaper/commit/0a4026351685b28afe0d5b1825abe197254be2be)
+* commit: [add JST connector for lipo battery [abcafec]](https://github.com/pdp7/kicad-teensy-epaper/commit/abcafeccad423acb4cc5d59347c79b58a7b5082b)
 * requires KiCad library [wickerlib](https://github.com/wickerbox/wickerlib) by [Jenner Hanni](http://jennerhanni.net/) of [Wickerbox Electronics](http://wickerbox.net/) for the 34-position FPC connector that the e-paper display plugs into:
   * [CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod](https://github.com/wickerbox/wickerlib/blob/master/libraries/Wickerlib.pretty/CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod)
 
@@ -27,7 +27,7 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
   * Mfg part number: FH34SRJ-34S-0.5SH(99)
   * Digi-Key: [H124726CT-ND](https://www.digikey.com/short/3hv1q0)
   * Datasheet: [FH34(S) Series Datasheet](https://www.hirose.com/product/en/download_file/key_name/FH34SRJ/category/Catalog/doc_file_id/31646/?file_category_id=4&item_id=27&is_series=1)
-* JST connector for LiPo battery
+* [JST connector for LiPo battery](https://www.digikey.com/short/312bmm)
   * Mfg part number: S2B-PH-SM4-TB(LF)(SN)
   * Digikey: [455-1749-1-ND](https://www.digikey.com/short/312bmm) _(CONN HEADER PH SIDE 2POS 2MM SMD)_
   * Datasheet: [JST PH connector](http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)  
