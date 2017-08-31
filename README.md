@@ -67,7 +67,7 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
 ## Source Code
 * uses [EPD215](https://github.com/jarek319/EPD215) Arduino Library by Jarek Lupinski for his E-paper Teensy Shield
 * requires pinout modification:
-  * [EpaperQuoteDisplay.ino](https://github.com/pdp7/kicad-teensy-epaper/blob/master/code/EpaperQuoteDisplay.ino)
+  * example: [bringahackmfba17-dorkbotpdx.ino](https://github.com/pdp7/kicad-teensy-epaper/blob/master/firmware/bringahackmfba17-dorkbotpdx/bringahackmfba17-dorkbotpdx.ino#L6)
   * `EPD215 epaper( 17, 16, 14, 15, 13, 11 );`
   
 ## Photos
