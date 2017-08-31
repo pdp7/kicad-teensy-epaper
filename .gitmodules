@@ -1,3 +1,6 @@
 [submodule "EPD215"]
 	path = firmware/EPD215
 	url = https://github.com/pdp7/EPD215
+[submodule "firmware/FancyEPD"]
+	path = firmware/FancyEPD
+	url = https://github.com/pdp7/FancyEPD
