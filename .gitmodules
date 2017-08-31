@@ -1,0 +1,3 @@
+[submodule "EPD215"]
+	path = firmware/EPD215
+	url = https://github.com/pdp7/EPD215
