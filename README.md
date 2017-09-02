@@ -69,6 +69,16 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
 * requires pinout modification:
   * example: [bringahackmfba17-dorkbotpdx.ino](https://github.com/pdp7/kicad-teensy-epaper/blob/master/firmware/bringahackmfba17-dorkbotpdx/bringahackmfba17-dorkbotpdx.ino#L6)
   * `EPD215 epaper( 17, 16, 14, 15, 13, 11 );`
+ * rotation hack in [`EPD215.cpp`](https://github.com/pdp7/EPD215/commit/f4e22660877759e53a3a83ed35c6e7a54616d285#diff-a3705673e6074c2678102896fd9fc17b)
+   * text and graphics wil be upside down without this
+   * [quick hack to set rotation](https://github.com/pdp7/EPD215/commit/f4e22660877759e53a3a83ed35c6e7a54616d285) based on [Adafruit documentation](https://learn.adafruit.com/adafruit-gfx-graphics-library/rotating-the-display): 
+   * Landscape mode:
+     * `_rotation = 1`
+   * Portrait mode:
+     * `_rotation = 2`
+   * I don't use this for the examples program that just display bitmaps as I just flip the image before generating the byte array from the bitmap file
+
+**TODO:** library should be modified to accept rotation parameter
   
 ## Photos
 * [Google Photos gallery](https://goo.gl/photos/csZV9jxah2BSP6vG9)
