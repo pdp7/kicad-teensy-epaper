@@ -565,6 +565,7 @@ const uint8_t pdx [ 2912 ] = {
 };
 
 void setup() {
+  epaper.setRotation(1);
   epaper.initScreen();    // initialize the epaper hardware
   epaper.updateScreen();  // update the screen with whatever is in the buffer
   epaper.clearScreen();   // clear the epaper buffer
