@@ -16,6 +16,7 @@ E-Paper badge designed in [KiCad](http://kicad-pcb.org/) to connect [Pervasive D
   * [CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod](https://github.com/wickerbox/wickerlib/blob/master/libraries/Wickerlib.pretty/CONN-HEADER-FH34SRJ-34S-0.5SH.kicad_mod)
 
 ## Bill of Materials (BoM)
+* [OSH Stencils](https://www.oshstencils.com/#projects/83952319ea2abc27d46ef9cab843063dbfd85e58)
 * [Teensy LC](http://store.oshpark.com/products/teensy-lc) sold by OSH Park. Designed and manufactured by [PJRC](https://www.pjrc.com/teensy/teensyLC.html).
   * _[Teensy 3.2](https://oshpark.com/teensy) is also compatible but more expensive_
 * [Pervasive Displays 2.15" e-paper with ITC](http://www.pervasivedisplays.com/products/215)
